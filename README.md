@@ -68,7 +68,8 @@ These highlight areas where customer satisfaction and loyalty programs can have 
 ![Contract Type vs Churn](Visuals/Impact%20of%20Different%20Contract%20Types%20on%20Churn%20Rates.png)
 ![Payment Method vs Churn](Visuals/Payment%20Method%20by%20Churn.png)
 - **Month-to-month contracts** see the highest churn, while annual contracts build retention.  
-- Customers paying via **electronic check** churn more frequently than those using automatic payments or credit cards.  
+- Customers who **pay using electronic checks** show the highest churn rate, suggesting this payment method is linked with less loyal or higher-risk customers.
+- Customers using **automatic payments (via bank transfer or credit card)** churn far less, indicating that automated billing helps improve retention.
 
 These insights guide practical policy decisions for subscription models and payment structures.
 
