@@ -39,14 +39,15 @@ The data covers customer demographics, billing habits, contract details, and ser
 
 ### 1️⃣ Overall Churn Pattern
 ![Churn Distribution](Visuals/Churn%20Distribution.png)
-About **26% of customers discontinued their service**, signaling both high competition and the need for proactive engagement.  
 
-Shorter-term contracts and flexible payment methods show the highest churn risk.
+-About **26% of customers discontinued their service**, signaling both high competition and the need for proactive engagement.  
+-Shorter-term contracts and flexible payment methods show the highest churn risk.
 
 ---
 
 ### 2️⃣ What Drives Customers Away
 ![Churn Reasons](Visuals/Distribution%20of%20Churn%20Reasons.png)
+
 Analysis showed three main causes of customer loss:
 - **Price dissatisfaction** – many users leave due to high or inconsistent charges.  
 - **Poor customer experience** – delays or lack of personalized support.  
@@ -58,6 +59,7 @@ These highlight areas where customer satisfaction and loyalty programs can have 
 
 ### 3️⃣ Tenure, Charges, and Churn Relationship
 ![Tenure vs Churn](Visuals/Boxplot%20of%20Relationship%20between%20Tenure_Months%20and%20Churn.png)
+
 - Customers staying **less than 12 months** are the most likely to leave.  
 - **Higher monthly bills** correspond to greater churn probability.  
 - Loyal, long-tenure customers tend to remain regardless of pricing, showing the value of long-term relationships.
@@ -67,6 +69,7 @@ These highlight areas where customer satisfaction and loyalty programs can have 
 ### 4️⃣ Contract & Payment Dynamics
 ![Contract Type vs Churn](Visuals/Impact%20of%20Different%20Contract%20Types%20on%20Churn%20Rates.png)
 ![Payment Method vs Churn](Visuals/Payment%20Method%20by%20Churn.png)
+
 - **Month-to-month contracts** see the highest churn, while annual contracts build retention.  
 - Customers who **pay using electronic checks** show the highest churn rate, suggesting this payment method is linked with less loyal or higher-risk customers.
 - Customers using **automatic payments (via bank transfer or credit card)** churn far less, indicating that automated billing helps improve retention.
@@ -77,6 +80,7 @@ These insights guide practical policy decisions for subscription models and paym
 
 ## 🔍 Correlation Highlights
 ![Correlation Matrix](Visuals/Heatmap%20of%20Continuous%20Variables%20and%20Churn%20Label.png)
+
 Strong links were found between:
 - **Tenure & Churn:** long-term customers rarely leave.  
 - **Charges & Churn:** higher costs push customers away.  
@@ -91,7 +95,7 @@ Three algorithms were trained and compared:
 - **Random Forest** – ensemble model for robust pattern detection.  
 - **Support Vector Machine (SVM)** – powerful but computationally heavy.
 
-The goal wasn’t just accuracy — but also **efficiency**. Energy consumption during training was measured to ensure sustainability.
+The goal wasn’t just accuracy, but also **efficiency**. Energy consumption during training was measured to ensure sustainability.
 
 ---
 
@@ -123,6 +127,7 @@ By evaluating the **carbon footprint of machine learning**, this project shows h
 ---
 
 ## 💡 Business Takeaways
+
 - **Retention starts early:** Engaging short-tenure customers can prevent most churn.  
 - **Incentivize loyalty:** Discounts or added benefits for long-term contracts reduce customer turnover.  
 - **Smart modeling saves energy:** Choosing leaner ML models lowers carbon emissions and computing costs.  
