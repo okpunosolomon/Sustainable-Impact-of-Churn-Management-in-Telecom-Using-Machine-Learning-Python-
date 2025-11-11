@@ -6,7 +6,7 @@
 ---
 
 ## 📘 Project Overview
-This project examines how telecom companies can use **machine learning** to manage customer churn sustainably — reducing loss, improving loyalty, and minimizing environmental impact from data operations.
+This project examines how telecom companies can use **machine learning** to manage customer churn sustainably thereby reducing loss, improving loyalty, and minimizing environmental impact from data operations.
 
 In simple terms, it answers three business questions:
 1. Why do customers leave telecom providers?
